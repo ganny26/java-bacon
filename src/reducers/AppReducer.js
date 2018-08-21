@@ -1,21 +1,21 @@
 
 const AppReducer = (state = {
-    messageText: ""
+  messageText: ""
 }, action) => {
-    switch (action.type) {
+  switch (action.type) {
 
-        case "DISPLAY_MESSAGE":
-            state = {
-                ...state,
-                messageText: action.payload
-            }
-            break;
-        default:
-            break;
+    case "DISPLAY_MESSAGE":
+      state = {
+        ...state,
+        messageText: action.payload
+      }
+      break;
+    default:
+      break;
 
-    }
+  }
 
-    return state;
+  return state;
 };
 
 export default AppReducer;
