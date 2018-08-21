@@ -1,5 +1,1 @@
-const AppConfig = {
-
-}
-
-module.exports = AppConfig;
+export const DEFAULT_PORT = 3000;
