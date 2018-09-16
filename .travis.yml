@@ -7,4 +7,7 @@ cache:
 before_deploy: npm install now --no-save 
 install:
   - npm run build
-  - npm run deploy
+deploy:
+  - provider: script 
+    script: 
+      - npm run deploy
