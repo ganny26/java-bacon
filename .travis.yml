@@ -9,7 +9,7 @@ script:
   - npm run build
 deploy:
   - provider: script 
-    script: now --token $NOW_TOKEN build/ --public
+    script: now --alias preview --token $NOW_TOKEN build/ --public
     skip_cleanup: true
     on:
       master: true

@@ -1,3 +1,3 @@
 module.exports = {
-    "MESSAGE_TEXT":"React + Redux Boilerplate"
+    "MESSAGE_TEXT":"App build on React + Redux Boilerplate && deployed on ZEIT !"
 }
