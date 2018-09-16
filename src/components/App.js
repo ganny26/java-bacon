@@ -8,7 +8,8 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      "message": null
+      "message": null,
+      "year":new Date().getFullYear()
     }
 
   }
@@ -23,7 +24,7 @@ class App extends Component {
         <header className="App-header">
           <h1 className="App-title">{this.props.welcomeMessage.messageText}</h1>
         </header>
-        <MainComponent heading="All rights Reserved 2018"/>
+        <MainComponent heading={`All rights reserved ${this.state.year}`}/>
       </div>
     );
   }

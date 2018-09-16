@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 class MainComponent extends Component {
     render() {
         return (
-            <div>
+            <div className="footer">
                 <p>{this.props.heading}</p>
             </div>
         );
