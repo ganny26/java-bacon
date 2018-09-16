@@ -10,7 +10,7 @@ install:
 deploy:
   - provider: script 
     script: 
-      - now build
+      - now run build
       - now --token $NOW_TOKEN
     skip_cleanup: true
     on:
