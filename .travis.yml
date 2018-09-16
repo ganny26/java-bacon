@@ -6,7 +6,8 @@ cache:
     - "node_modules"
 before_deploy: npm install now --no-save 
 install:
-  - npm build
+  - npm run install
+  - npm run build
 deploy:
   - provider: script 
     script: 
