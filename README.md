@@ -1,6 +1,4 @@
-This project was bootstrapped with Create React App additionally configured with redux architecture!
-
-
+This project was bootstrapped with Create React App additionally configured with redux architecture
 
 ## React + Redux
 
