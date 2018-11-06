@@ -1,5 +1,8 @@
 {
   "type": "static",
+  "engines": {
+    "node": "8.12.0"
+  },
   "static": {
     "rewrites": [
       {
